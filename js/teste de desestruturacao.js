@@ -20,3 +20,16 @@ console.log(num1, num2); // Será exibido 1, 2 no console
 const [num1, num2] = [1, 2]
 
 console.log(num1, num2); // Também será exibido 1, 2 no console
+
+//Exemplo 3:
+
+const pessoa = {
+    nome: 'Jethro',
+    idade: 38
+}
+
+const { nome } = pessoa;
+console.log(nome); //Será exibido o nome dentro do objeto pessoa
+
+const { idade } = pessoa;
+console.log(idade); // Será exibido a idade dentro do objeto pessoa

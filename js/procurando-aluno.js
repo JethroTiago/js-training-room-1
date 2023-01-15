@@ -6,8 +6,10 @@ const listaAlunosEMedias = [alunos, medias];
 function exibeNomeENota(aluno) {
     if (listaAlunosEMedias[0].includes(aluno)) { //includes confere se o paramentro esta incluso
         
-        const alunos = listaAlunosEMedias[0];
-        const medias = listaAlunosEMedias[1];
+        //const alunos = listaAlunosEMedias[0];
+        //const medias = listaAlunosEMedias[1];
+
+        const [alunos, medias] = listaAlunosEMedias; //Essa destruturação equivale aos dois códigos acima
 
         const indice = alunos.indexOf(aluno); //indexOf retorna o indice que foi passado por parametro
         const mediaDoAluno = medias[1][indice];

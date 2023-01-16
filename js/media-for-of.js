@@ -11,3 +11,5 @@ console.log(somaDasNotas);
 const media = somaDasNotas / notas.length;
 
 console.log(`A média das notas é ${media}.`);
+
+// O 'for of' percorre o array do início ao fim.

@@ -20,7 +20,7 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 
 Esta sala de treino visa reforçar os conhecimentos e as novas habilidades:
 
-* JQuery
+* Desestruturação de Arrays
 * Spread Operator
 * Compiladores (Babel)
 * Padrões em JavaScript

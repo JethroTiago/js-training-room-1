@@ -25,3 +25,5 @@ console.log(`A média das notas é ${media}.`);
 
 //Callback e vai ser executada para cada elemento do array, sendo que pode receber de 1 a 3 argumentos: 
 //o ELEMENTO, o ÍNDICE e o ARRAY ATUAL, respectivamente. No exemplo acima, o elemento é nota (dentro da function)
+//forEach() é um método do objeto Array. Isso significa que esta função foi desenvolvida para trabalhar apenas com 
+//esse tipo de dado - no caso, com arrays.

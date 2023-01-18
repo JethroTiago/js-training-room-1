@@ -15,3 +15,5 @@ console.log(`A média da sala de Java foi de ${calculaMedia(salaJava)}`);
 console.log(`A média da sala de Python foi de ${calculaMedia(salaPython)}`);
 
 //Acumulador foi renomeado para acc
+//O reduce() trabalha com dois parâmetros. O primeiro é a função Callback e
+//o segundo é um número que representa o valor inicial do acc - no caso, 0.

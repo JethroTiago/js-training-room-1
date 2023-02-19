@@ -4,3 +4,11 @@ const cliente = {
     email: "joão@email.com",
     telefone: ["11992969091", "11998746856"],
 }
+
+cliente.endereco = {
+    rua: "Rouxinol",
+    casa: true,
+    numero: 435,
+}
+
+console.log(cliente);

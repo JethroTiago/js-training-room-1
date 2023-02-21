@@ -13,3 +13,18 @@ cliente.enderecos = [
         complemento: "ap 900"
     }
 ];
+
+function ligaParaCliente(telComercial, telResidencial) {
+    console.log(`Ligando para ${telComercial}`);
+    console.log(`Ligando para ${telResidencial}`);
+}
+
+ligaParaCliente(cliente.telefone[0], cliente.telefone[1]); //Exibe os dois telefones
+ligaParaCliente(...cliente.telefone); //Spread operator que é a mesma coisa da chamada acima
+
+const encomenda = {
+    destinatario: cliente.nome,
+    endereco: cliente.enderecos,
+};
+
+console.log(encomenda);

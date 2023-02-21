@@ -8,7 +8,12 @@ const cliente = {
 cliente.enderecos = [
     {
         rua: "Rouxinol",
-        casa: true,
         numero: 435,
+        apt: true,
+        complemento: "ap 900"
     }
 ];
+
+for (let chave in cliente) {
+    console.log(chave);
+}

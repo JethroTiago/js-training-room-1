@@ -5,13 +5,13 @@ Meu espaço pessoal de treino de <strong>JavaScript</strong> e <strong>React</st
 
 ## Como Funciona
 
-Este repositório contem códigos usados para praticar a linguagem de programação JavaScript
+Este repositório contem códigos usados para praticar a linguagem de programação JavaScript.
 
 ![JSTraining](https://user-images.githubusercontent.com/103612874/202919895-734246e0-cc6e-499f-aba7-bc648ea97928.jpg)
 
 ## Em desenvolvimento:
 
-* <strong>REACT</strong>
+* <strong>JAVASCRIPT</strong>
 * Manipulação do DOM;
 * Programação orientada de objetos;
 * Node.js

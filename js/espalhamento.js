@@ -11,7 +11,7 @@ cliente.enderecos = [
         numero: 435,
         apt: true,
         complemento: "ap 900"
-    }
+    },
 ];
 
 function ligaParaCliente(telComercial, telResidencial) {
@@ -24,7 +24,7 @@ ligaParaCliente(...cliente.telefone); //Spread operator que é a mesma coisa da 
 
 const encomenda = {
     destinatario: cliente.nome,
-    endereco: cliente.enderecos,
+    ...cliente.enderecos[0]
 };
 
 console.log(encomenda);

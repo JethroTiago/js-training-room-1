@@ -7,3 +7,6 @@ const clientEmString = JSON.stringify(dados);
 
 console.log(clientEmString);
 console.log(`É do tipo: ${typeof clientEmString}`);
+
+const objetoCliente = JSON.parse(clientEmString);
+console.log(objetoCliente);

@@ -2,6 +2,7 @@
 
 # Sala de Treino JS e React
 Meu espaço pessoal de treino de <strong>JavaScript</strong> e <strong>React</strong>
+My personal space for JS Training
 
 ## Como Funciona
 

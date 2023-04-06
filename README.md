@@ -12,7 +12,7 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 
 ## Em desenvolvimento:
 
-* <strong>JAVASCRIPT</strong>
+* JAVASCRIPT
 * Manipulação do DOM;
 * Programação orientada de objetos;
 * Node.js
